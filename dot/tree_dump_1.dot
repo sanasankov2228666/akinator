@@ -1,0 +1,45 @@
+digraph Tree
+{
+	nodesep=0.8;
+	ranksep=1;
+	node [shape=record,style="rounded,filled", fillcolor=lightblue];
+	edge [arrowsize=0.8];
+	splines=ortho;	fontsize = 24;
+	label="your tree now";
+	labelloc=t;
+
+	node0 [label = "{parent = (nil) | data = is it animal?| {<left> YES = 0x5ea6c6fa0be0|<right> NO = 0x5ea6c6fa0e10} }", fillcolor = "wheat", style = "filled"];
+	node1 [label = "{parent = 0x5ea6c6fa0780 | data = NE lox?| {<left> YES = 0x5ea6c6fa0c30|<right> NO = 0x5ea6c6fa0c80} }", fillcolor = "wheat", style = "filled"];
+	node2 [label = "{parent = 0x5ea6c6fa0be0 | data = artem| {<left> YES = (nil)|<right> NO = (nil)} }", fillcolor = "lightgreen", style = "filled"];
+	node3 [label = "{parent = 0x5ea6c6fa0be0 | data = FERZ?| {<left> YES = 0x5ea6c6fa0cd0|<right> NO = 0x5ea6c6fa0d20} }", fillcolor = "wheat", style = "filled"];
+	node4 [label = "{parent = 0x5ea6c6fa0c80 | data = SASHA KUPTSOV| {<left> YES = (nil)|<right> NO = (nil)} }", fillcolor = "lightgreen", style = "filled"];
+	node5 [label = "{parent = 0x5ea6c6fa0c80 | data = bogatiy?| {<left> YES = 0x5ea6c6fa0d70|<right> NO = 0x5ea6c6fa0dc0} }", fillcolor = "wheat", style = "filled"];
+	node6 [label = "{parent = 0x5ea6c6fa0d20 | data = vadim| {<left> YES = (nil)|<right> NO = (nil)} }", fillcolor = "lightgreen", style = "filled"];
+	node7 [label = "{parent = 0x5ea6c6fa0d20 | data = dog?| {<left> YES = (nil)|<right> NO = (nil)} }", fillcolor = "lightgreen", style = "filled"];
+	node8 [label = "{parent = 0x5ea6c6fa0780 | data = SMART?| {<left> YES = 0x5ea6c6fa0e60|<right> NO = 0x5ea6c6fa0eb0} }", fillcolor = "wheat", style = "filled"];
+	node9 [label = "{parent = 0x5ea6c6fa0e10 | data = AMIR| {<left> YES = (nil)|<right> NO = (nil)} }", fillcolor = "lightgreen", style = "filled"];
+	node10 [label = "{parent = 0x5ea6c6fa0e10 | data = NOVIY?| {<left> YES = 0x5ea6c6fa0f00|<right> NO = 0x5ea6c6fa0f50} }", fillcolor = "wheat", style = "filled"];
+	node11 [label = "{parent = 0x5ea6c6fa0eb0 | data = TELEPHONE| {<left> YES = (nil)|<right> NO = (nil)} }", fillcolor = "lightgreen", style = "filled"];
+	node12 [label = "{parent = 0x5ea6c6fa0eb0 | data = zloy?| {<left> YES = 0x5ea6c6fa0fa0|<right> NO = 0x5ea6c6fa0ff0} }", fillcolor = "wheat", style = "filled"];
+	node13 [label = "{parent = 0x5ea6c6fa0f50 | data = hasan| {<left> YES = (nil)|<right> NO = (nil)} }", fillcolor = "lightgreen", style = "filled"];
+	node14 [label = "{parent = 0x5ea6c6fa0f50 | data = long?| {<left> YES = 0x5ea6c6f9fc40|<right> NO = 0x5ea6c6f9fc90} }", fillcolor = "wheat", style = "filled"];
+	node15 [label = "{parent = (nil) | data = yazi| {<left> YES = (nil)|<right> NO = (nil)} }", fillcolor = "lightgreen", style = "filled"];
+	node16 [label = "{parent = (nil) | data = cat?| {<left> YES = (nil)|<right> NO = (nil)} }", fillcolor = "lightgreen", style = "filled"];
+	node0:<left> -> node1;
+	node1:<left> -> node2;
+	node1:<right> -> node3;
+	node3:<left> -> node4;
+	node3:<right> -> node5;
+	node5:<left> -> node6;
+	node5:<right> -> node7;
+	node0:<right> -> node8;
+	node8:<left> -> node9;
+	node8:<right> -> node10;
+	node10:<left> -> node11;
+	node10:<right> -> node12;
+	node12:<left> -> node13;
+	node12:<right> -> node14;
+	node14:<left> -> node15;
+	node14:<right> -> node16;
+
+}

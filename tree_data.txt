@@ -1,0 +1,1 @@
+( "animal?" ( "NE lox?" ( "artem" nill nill )( "FERZ?" ( "SASHA KUPTSOV" nill nill )( "bogatiy?" ( "vadim" nill nill )( "dog?" nill nill ))))( "SMART?" ( "AMIR" nill nill )( "NOVIY?" ( "TELEPHONE" nill nill )( "zloy?" ( "hasan" nill nill )( "long?" ( "yazi" nill nill )( "cat?" nill nill ))))))
